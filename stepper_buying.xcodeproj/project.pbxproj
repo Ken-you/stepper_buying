@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		DB113E692633DD9100AB750C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB113E682633DD9100AB750C /* AppDelegate.swift */; };
 		DB113E6B2633DD9100AB750C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB113E6A2633DD9100AB750C /* SceneDelegate.swift */; };
-		DB113E6D2633DD9100AB750C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB113E6C2633DD9100AB750C /* ViewController.swift */; };
 		DB113E702633DD9100AB750C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB113E6E2633DD9100AB750C /* Main.storyboard */; };
 		DB113E722633DD9200AB750C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB113E712633DD9200AB750C /* Assets.xcassets */; };
 		DB113E752633DD9200AB750C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB113E732633DD9200AB750C /* LaunchScreen.storyboard */; };
+		DB113E7E2633DDB900AB750C /* buyingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB113E7D2633DDB900AB750C /* buyingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB113E652633DD9100AB750C /* stepper_buying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stepper_buying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB113E682633DD9100AB750C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB113E6A2633DD9100AB750C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB113E6C2633DD9100AB750C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB113E6F2633DD9100AB750C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB113E712633DD9200AB750C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB113E742633DD9200AB750C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB113E762633DD9200AB750C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB113E7D2633DDB900AB750C /* buyingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyingViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				DB113E682633DD9100AB750C /* AppDelegate.swift */,
 				DB113E6A2633DD9100AB750C /* SceneDelegate.swift */,
-				DB113E6C2633DD9100AB750C /* ViewController.swift */,
+				DB113E7D2633DDB900AB750C /* buyingViewController.swift */,
 				DB113E6E2633DD9100AB750C /* Main.storyboard */,
 				DB113E712633DD9200AB750C /* Assets.xcassets */,
 				DB113E732633DD9200AB750C /* LaunchScreen.storyboard */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB113E6D2633DD9100AB750C /* ViewController.swift in Sources */,
 				DB113E692633DD9100AB750C /* AppDelegate.swift in Sources */,
+				DB113E7E2633DDB900AB750C /* buyingViewController.swift in Sources */,
 				DB113E6B2633DD9100AB750C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
